@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyRecipe</string>
+    <string name="find_recipe">Find Recipe</string>
+    <string name="saved_recipe">Saved Recipes</string>
 </resources>
