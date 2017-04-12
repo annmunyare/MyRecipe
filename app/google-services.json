@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "179989611186",
+    "firebase_url": "https://myrecipe-56c2f.firebaseio.com",
+    "project_id": "myrecipe-56c2f",
+    "storage_bucket": "myrecipe-56c2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179989611186:android:f2e2acb0b94556fe",
+        "android_client_info": {
+          "package_name": "com.example.nyambura.myrecipe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179989611186-qkb2kq1dpjtfk7f4ochbm3mvp7sp1et8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nyambura.myrecipe",
+            "certificate_hash": "62d19ccca619eba45fbca30948982d97ff3a62f7"
+          }
+        },
+        {
+          "client_id": "179989611186-804oedn5cu4k18noal49siv4s22ailk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcZw2z-PqrLpmuwBMJhAgkgAMi4W6b6eI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179989611186-804oedn5cu4k18noal49siv4s22ailk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
