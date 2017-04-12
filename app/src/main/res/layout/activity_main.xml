@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.nyambura.myrecipe.MainActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/rsmoothie"
+        android:scaleType="centerCrop"
+        />
+
     <Button
         android:id ="@+id/find_recipe_button"
         android:layout_width="150dp"

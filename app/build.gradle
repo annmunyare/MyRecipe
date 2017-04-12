@@ -3,6 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
+
+    buildTypes.each {
+        it.buildConfigField 'String', 'EDAMAM_API_KEY', EdamamApiKey
+        it.buildConfigField 'String', 'EDAMAM_API_ID', EdamamApiId
+    }
     defaultConfig {
         applicationId "com.example.nyambura.myrecipe"
         minSdkVersion 15
@@ -23,6 +28,7 @@ android {
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/notice.txt'
     }
+
     buildTypes {
         release {
             minifyEnabled false
