@@ -14,9 +14,27 @@
         <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name=".RecipeListActivity" />
-        <activity android:name=".RecipeDetailActivity" />
-        <activity android:name=".SavedRecipeActivity" />
+        <activity android:name=".RecipeListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nyambura.myrecipe.MainActivity">
+            </meta-data>
+        </activity>
+
+        <activity android:name=".RecipeDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nyambura.myrecipe.RecipeListActivity">
+            </meta-data>
+        </activity>
+
+        <activity android:name=".SavedRecipeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nyambura.myrecipe.RecipeListActivity">
+            </meta-data>
+        </activity>
+
         <activity android:name=".CreateAccountActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".LoginActivity"
