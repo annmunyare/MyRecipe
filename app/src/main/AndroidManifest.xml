@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nyambura.myrecipe">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -17,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RecipeListActivity" />
+        <activity android:name=".RecipeDetailActivity" />
+        <activity android:name=".SavedRecipeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CreateAccountActivity"></activity>
     </application>
 
 </manifest>

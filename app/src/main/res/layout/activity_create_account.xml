@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyambura.myrecipe.CreateAccountActivity">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:id="@+id/enterEmailEditText"
+        android:background="@color/colorTextIcons"
+        android:hint="Enter Email"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/enterEmailEditText"
+        android:layout_alignRight="@+id/enterEmailEditText"
+        android:layout_alignEnd="@+id/enterEmailEditText"
+        android:layout_marginBottom="36dp"
+        android:id="@+id/enterNameEditText"
+        android:background="@color/colorTextIcons"
+        android:password="false"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="17dp"
+        android:id="@+id/enterPasswordEditText"
+        android:hint="Enter Password"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/enterEmailEditText"
+        android:layout_alignLeft="@+id/enterEmailEditText"
+        android:layout_alignStart="@+id/enterEmailEditText"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/confirmPasswordEditText"
+        android:background="@color/colorTextIcons"
+        android:hint="Confirm Password"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/enterPasswordEditText"
+        android:layout_alignStart="@+id/enterPasswordEditText"/>
+
+    <Button
+        android:text="Sign-Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/createAccountButton"
+        android:layout_below="@+id/confirmPasswordEditText"
+        android:layout_alignRight="@+id/confirmPasswordEditText"
+        android:layout_alignEnd="@+id/confirmPasswordEditText"
+        android:layout_alignLeft="@+id/confirmPasswordEditText"
+        android:layout_alignStart="@+id/confirmPasswordEditText"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorTextIcons"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:text="Already have an account? Log in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createAccountButton"
+        android:layout_alignLeft="@+id/createAccountButton"
+        android:layout_alignStart="@+id/createAccountButton"
+        android:layout_marginTop="17dp"
+        android:id="@+id/loginTextView"
+        android:textColor="@color/colorTextIcons"/>
+
+    <TextView
+        android:text="Create An Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/createAccountHeader"
+        android:elevation="0dp"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

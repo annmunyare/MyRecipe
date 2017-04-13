@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:elevation="22dp"
+    android:background="@drawable/recipeborder">
+
+    <ImageView
+
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rsmoothie"
+        android:id="@+id/foodImageView"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/foodTitle"
+        android:text="Pork and Bread Crumbs"
+        android:textAlignment="center"/>
+
+</LinearLayout>

@@ -16,7 +16,7 @@
         />
 
     <Button
-        android:id ="@+id/find_recipe_button"
+        android:id ="@+id/recipeButton"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:text="@string/find_recipe"
@@ -24,7 +24,7 @@
         android:padding="15dp"
         />
     <Button
-        android:id ="@+id/saved_recipes_button"
+        android:id ="@+id/favoriteRecipesButton"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:text="@string/saved_recipe"

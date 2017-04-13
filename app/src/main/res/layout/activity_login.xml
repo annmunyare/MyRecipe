@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nyambura.myrecipe.LoginActivity">
+    <TextView
+        android:text="Welcome Please Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/welcomeHeaderTextView"
+        android:textSize="35sp"
+        android:textColor="@color/colorTextIcons"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/welcomeHeaderTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:id="@+id/loginEmailEditText"
+        android:hint="Enter Email"
+        android:background="@color/colorTextIcons"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/loginEmailEditText"
+        android:layout_marginTop="29dp"
+        android:id="@+id/passwordLoginEditText"
+        android:hint="Enter Password"
+        android:background="@color/colorTextIcons"
+        android:layout_alignRight="@+id/loginEmailEditText"
+        android:layout_alignEnd="@+id/loginEmailEditText"/>
+
+    <Button
+        android:text="Log-In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:elevation="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/passwordLoginEditText"
+        android:layout_alignStart="@+id/passwordLoginEditText"
+        android:layout_alignRight="@+id/passwordLoginEditText"
+        android:layout_alignEnd="@+id/passwordLoginEditText"
+        android:textColor="@color/colorTextIcons"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:text="Don't have an account? Register here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/registerTextView"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="16sp"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
