@@ -14,7 +14,7 @@
         android:layout_marginTop="42dp"
         android:id="@+id/welcomeHeaderTextView"
         android:textSize="35sp"
-        android:textColor="@color/colorTextIcons"/>
+        android:textColor="@color/colorAccent"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:layout_marginTop="43dp"
         android:id="@+id/loginEmailEditText"
         android:hint="Enter Email"
-        android:background="@color/colorTextIcons"
+        android:background="@color/colorAccent"
         android:textColor="@android:color/black"/>
 
     <EditText
@@ -38,7 +38,7 @@
         android:layout_marginTop="29dp"
         android:id="@+id/passwordLoginEditText"
         android:hint="Enter Password"
-        android:background="@color/colorTextIcons"
+        android:background="@color/colorAccent"
         android:layout_alignRight="@+id/loginEmailEditText"
         android:layout_alignEnd="@+id/loginEmailEditText"/>
 
@@ -53,7 +53,7 @@
         android:layout_alignStart="@+id/passwordLoginEditText"
         android:layout_alignRight="@+id/passwordLoginEditText"
         android:layout_alignEnd="@+id/passwordLoginEditText"
-        android:textColor="@color/colorTextIcons"
+        android:textColor="@color/colorAccent"
         android:background="@color/colorPrimaryDark"/>
 
     <TextView
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:id="@+id/registerTextView"
-        android:textColor="@color/colorTextIcons"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp"
         android:layout_below="@+id/loginButton"
         android:layout_centerHorizontal="true"/>

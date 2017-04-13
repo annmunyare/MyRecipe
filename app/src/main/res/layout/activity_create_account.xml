@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="148dp"
         android:id="@+id/enterEmailEditText"
-        android:background="@color/colorTextIcons"
+        android:background="@color/colorAccent"
         android:hint="Enter Email"/>
 
     <EditText
@@ -27,7 +27,7 @@
         android:layout_alignEnd="@+id/enterEmailEditText"
         android:layout_marginBottom="36dp"
         android:id="@+id/enterNameEditText"
-        android:background="@color/colorTextIcons"
+        android:background="@color/colorAccent"
         android:password="false"
         android:hint="Enter Name"/>
 
@@ -39,7 +39,7 @@
         android:layout_marginTop="17dp"
         android:id="@+id/enterPasswordEditText"
         android:hint="Enter Password"
-        android:background="@color/colorTextIcons"
+        android:background="@color/colorAccent"
         android:layout_below="@+id/enterEmailEditText"
         android:layout_alignLeft="@+id/enterEmailEditText"
         android:layout_alignStart="@+id/enterEmailEditText"/>
@@ -50,7 +50,7 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/confirmPasswordEditText"
-        android:background="@color/colorTextIcons"
+        android:background="@color/colorAccent"
         android:hint="Confirm Password"
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/enterPasswordEditText"
@@ -82,7 +82,7 @@
         android:layout_alignStart="@+id/createAccountButton"
         android:layout_marginTop="17dp"
         android:id="@+id/loginTextView"
-        android:textColor="@color/colorTextIcons"/>
+        android:textColor="@color/colorAccent"/>
 
     <TextView
         android:text="Create An Account"
@@ -93,7 +93,7 @@
         android:layout_marginTop="34dp"
         android:id="@+id/createAccountHeader"
         android:elevation="0dp"
-        android:textColor="@color/colorTextIcons"
+        android:textColor="@color/colorAccent"
         android:textSize="25sp"/>
 
 </RelativeLayout>
