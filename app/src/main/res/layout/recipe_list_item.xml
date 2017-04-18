@@ -13,6 +13,7 @@
         android:src="@drawable/rsmoothie"
         android:id="@+id/foodImageView"
         android:layout_marginLeft="1dp"
+
         android:layout_marginTop="5dp"
         />
 

@@ -33,19 +33,19 @@
             android:text="Instructions"
             android:id="@+id/linkTextView"
             android:textSize="15sp"
-            android:layout_marginTop="41dp"
+            android:layout_marginTop="5dp"
             android:textColor="#ffffff"
             android:drawableLeft="@drawable/ic_open_in_browser_black_24dp"
             android:drawablePadding="5dp"
-            android:layout_below="@+id/detailTitle"
-            android:layout_toRightOf="@+id/detailImage"
+
+            android:layout_below="@+id/detailImage"
             />
 
         <ImageView
             android:src="@drawable/rsmoothie"
             android:layout_gravity="center_horizontal|top"
             android:id="@+id/detailImage"
-            android:layout_width="200dp"
+            android:layout_width="400dp"
             android:layout_height="200dp"
             android:layout_below="@+id/detailTitle"
             android:layout_marginLeft="10dp"
@@ -61,7 +61,7 @@
             android:layout_marginLeft="10dp"
             android:textColor="#ffffff"
             android:layout_below="@+id/linkTextView"
-            android:layout_toRightOf="@+id/detailImage"
+
 
             />
 
@@ -74,7 +74,7 @@
             android:layout_marginLeft="10dp"
             android:textSize="15sp"
             android:layout_below="@+id/caloriesTextView"
-            android:layout_toRightOf="@+id/detailImage"/>
+            />
 
 
         <ListView
@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/ingredientListView"
             android:layout_marginTop="5dp"
-            android:layout_below="@+id/detailImage"/>
+            android:layout_below="@+id/servingsTextView"/>
 
     </RelativeLayout>
 
